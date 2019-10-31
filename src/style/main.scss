@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+    
+    
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'montserrat';
+}
+
+body {
+    
+    height: 100px;
+    background-color: #BB0A21;
+    overflow-x: hidden;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+    background-color: #252627;
+    padding: 20px;
+    border-bottom: 4px solid #4B88A2;
+    position: fixed;
+    width: 100%;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    text-shadow:
+		0px 0px 0 #4B88A2,
+		-3px 0px 0 #4B88A2,
+		-3px 1px 0 #4B88A2,
+		1px 0px 0 #4B88A2;
+    display: flex;
+    justify-content: center;
+    color: #FFF9FB;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.header-btn-m {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-shadow:
+		-1px -1px 0 #4B88A2,
+		1px -1px 0 #4B88A2,
+		-1px 1px 0 #4B88A2,
+		1px 1px 0 #4B88A2;
+    cursor: pointer;
+    background-color: #252627;
+    border: none;
+    color: #FFF9FB;
+    margin-right: 25px;
+}
+
+.header-btn-w {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-shadow:
+		-1px -1px 0 #4B88A2,
+		1px -1px 0 #4B88A2,
+		-1px 1px 0 #4B88A2,
+		1px 1px 0 #4B88A2;
+    cursor: pointer;
+    background-color: #252627;
+    border: none;
+    color: #FFF9FB;
+    margin-right: 25px;
+}
+
+.header-btn-k {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-shadow:
+		-1px -1px 0 #4B88A2,
+		1px -1px 0 #4B88A2,
+		-1px 1px 0 #4B88A2,
+		1px 1px 0 #4B88A2;
+    cursor: pointer;
+    background-color: #252627;
+    border: none;
+    color: #FFF9FB;
+    margin-right: 25px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: -5px;
+    border-top: 10px solid #4B88A2;
+    background-color: #252627;
+    padding: 20px;
+    
+}
+

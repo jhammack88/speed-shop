@@ -16,7 +16,7 @@ html {
 body {
     
     height: 100px;
-    background-color: #BB0A21;
+    background-color: #252627;
     overflow-x: hidden;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
@@ -27,15 +27,17 @@ body {
 
 .app {
     background-color: #252627;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 4px solid #4B88A2;
     position: fixed;
     width: 100%;
+    height: auto;
 }
 
 .title {
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 4em;
+    font-size: 5em;
     text-shadow:
 		0px 0px 0 #4B88A2,
 		-3px 0px 0 #4B88A2,
@@ -44,9 +46,8 @@ body {
     display: flex;
     justify-content: center;
     color: #FFF9FB;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .header-btn-m {
@@ -94,11 +95,18 @@ body {
     margin-right: 25px;
 }
 
+.header-btn-m:hover, .header-btn-w:hover,.header-btn-k:hover {
+    color: #BB0A21;
+    text-shadow: none;
+    transition: .1s;
+}
+
 .btn-group {
     display: flex;
     justify-content: flex-end;
     text-align: right;
     margin-right: 20px;
+    
 }
 
 .footer {
